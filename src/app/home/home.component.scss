@@ -1,0 +1,50 @@
+@import 'bulma/css/bulma.css';
+@font-face {
+  font-family: 'Poppins SemiBold';
+  src: url("/assets/fonts/Poppins-SemiBold.ttf") format("truetype");
+}
+@font-face {
+  font-family: 'Poppins Regular';
+  src: url("/assets/fonts/Poppins-Regular.ttf") format("truetype");
+}
+.primay{
+  background: #051A16 !important;
+}
+.developer{
+  font-family: 'Poppins SemiBold';
+  font-size: 300px;
+  color: #ffffff62;
+  mix-blend-mode: overlay;
+}
+
+.hey-there{
+  font-family: 'Poppins Regular';
+  font-size: 96px;
+  line-height: 94px;
+  color: #FFFFFF;
+}
+.Buttonbackend{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 15px 40px;
+  gap: 10px;
+  position: absolute;
+  background: #F1875E;
+  border-radius: 50px;
+}
+.textInfo{
+  position: absolute;
+  width: 402px;
+  height: 72px;
+  left: 1350px;
+
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+
+  color: #FFFFFF;
+}
+
